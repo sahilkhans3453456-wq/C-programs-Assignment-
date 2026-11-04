@@ -1,0 +1,14 @@
+Write a C++ program that takes the number of overdue days as input. If a book is returned after 
+its due date, display "Late Return: Fine Applicable".
+
+#include<iostream>
+using namespace std;
+
+int main()
+{ float Due ;
+cout<<" Library book after due date"<<endl;
+cin>>Due;
+if (Due>7)
+cout<<"Late return: Fine Applicable";
+    return 0;
+}
