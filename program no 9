@@ -1,0 +1,14 @@
+Write a C++ program that takes a bank account's current balance as input. If the balance is below 
+Rs. 5,000, display "Minimum Balance Alert".
+
+#include<iostream>
+using namespace std;
+
+int main()
+{ float balance;
+cout<<" Account Balance "<<endl;
+cin>>balance;
+if (balance<5000)
+cout<<"Minimum Balance Alert!!!";
+    return 0;
+}
