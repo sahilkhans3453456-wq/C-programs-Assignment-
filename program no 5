@@ -1,0 +1,15 @@
+Write a C++ program that takes a patient's temperature in Celsius as input. If the temperature is 
+39°C or higher, display "High Fever Alert: Seek Medical Assessment".
+
+
+#include<iostream>
+using namespace std;
+
+int main()
+{ float Temp ;
+cout<<" Temperature in Cenegrate °C"<<endl;
+cin>>Temp;
+if (Temp>=39)
+cout<<"High Fever Alert: Seek Medical Assessment";
+    return 0;
+}
