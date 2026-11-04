@@ -1,0 +1,14 @@
+Write a C++ program that takes the room temperature as input. If the temperature exceeds 30°C, 
+display "Turn On the Cooling System".
+
+#include<iostream>
+using namespace std;
+
+int main()
+{ float Temp ;
+cout<<" Room Temperature in °C "<<endl;
+cin>>Temp;
+if (Temp>30)
+cout<<"Turn ON the cooling system";
+    return 0;
+}
