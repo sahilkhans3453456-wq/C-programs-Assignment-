@@ -1,0 +1,14 @@
+Write a C++ program that takes the total shopping amount as input. If the amount is Rs. 3,000 or 
+more, display "Congratulations! You Qualify for Free Delivery".
+
+#include<iostream>
+using namespace std;
+
+int main()
+{ float SB;
+cout<<"Enter Shopping Bill "<<endl;
+cin>>SB;
+if (SB>=3000)
+cout<<"Your are eligible for free delivery";
+    return 0;
+}
