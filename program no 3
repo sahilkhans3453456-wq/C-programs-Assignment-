@@ -1,0 +1,14 @@
+Write a C++ program that takes the mobile battery percentage as input. If the battery level is 
+15% or less, display "Low Battery! Please Charge Your Phone".
+
+#include<iostream>
+using namespace std;
+
+int main()
+{ float Battery;
+cout<<" Battery level in percentage "<<endl;
+cin>>Battery;
+if (Battery<=15)
+cout<<"Low battery! Please charge your mobile";
+    return 0;
+}
